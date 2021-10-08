@@ -1,10 +1,10 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import time
 import tqdm
 
-configuration_number = "0x90ABF0A78"
-version = "0.0.5"
+configuration_number = "0x90ABFDA8"
+version = "0.0.6"
 
 print("Service package 2: ver. {}".format(version))
 time.sleep(0.5)

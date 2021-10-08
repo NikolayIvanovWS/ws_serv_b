@@ -1,16 +1,17 @@
 ### Installation
 ```
-cd ~/ros_catkin_ws/src/
-git clone https://github.com/voltbro/ws_serv_B.git
+cd ~/catkin_ws/src/
+git clone https://github.com/voltbro/ws_serv_b.git 
 ```
 ### Compilation
 ```
-cd ~/ros_catkin_ws/
-sudo ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release --install-space /opt/ros/melodic --pkg=ws_serv_B
+cd ~/catkin_ws/
+sudo catkin_make --pkg ws_serv_b
 ```
 ### Usage
 
-Just run start_configure_B.launch
+Just run configure.launch
 ```
-roslaunch ws_serv_B start_configure_B.launch
+roslaunch ws_serv_b start_configure.launch
 ```
+
